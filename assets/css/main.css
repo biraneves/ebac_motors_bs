@@ -1,0 +1,26 @@
+price {
+    font-weight: bold;
+}
+
+price.del {
+    font-weight: normal;
+    color: var(--bs-tertiary-color);
+    text-decoration: line-through;
+    margin-right: 0.75rem;
+}
+
+#bg-promocoes {
+    background-color: var(--bs-secondary-bg);
+}
+
+.req {
+    color: var(--bs-danger);
+}
+
+textarea {
+    resize: none;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
