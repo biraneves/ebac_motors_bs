@@ -9,6 +9,11 @@ price.del {
     margin-right: 0.75rem;
 }
 
+#bg-sobre {
+    background-color: #eee;
+    padding-bottom: 32px;
+}
+
 #bg-promocoes {
     background-color: var(--bs-secondary-bg);
 }
@@ -23,4 +28,12 @@ textarea {
 
 footer p {
     font-size: 0.8rem;
+}
+
+section {
+    padding-top: 64px;
+}
+
+#promocoes {
+    padding-bottom: 32px;
 }

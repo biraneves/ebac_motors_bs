@@ -9,12 +9,10 @@
         <title>EBAC Motors - Bootstrap</title>
     </head>
     <body>
-        <header>
-            <nav
-                class="navbar navbar-expand-lg sticky-top bg-dark bg-body-tertiary border-bottom border-body"
-                data-bs-theme="dark"
-            >
-                <div class="container">
+        <header class="p-1 bg-body-tertiary sticky-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg d-flex flex-wrap align-items-center">
+                    <a href="/" class="navbar-brand"> EBAC Motors </a>
                     <button
                         type="button"
                         class="navbar-toggler"
@@ -24,7 +22,6 @@
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a href="#" class="navbar-brand">EBAC Motors</a>
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
@@ -33,10 +30,10 @@
                             <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
-        <div class="bg-dark pt-2 pb-2">
+        <div class="bg-dark pt-1 pb-1">
             <div class="container">
                 <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
                     <div class="d-none d-sm-block">
@@ -86,27 +83,29 @@
             </div>
         </div>
         <main>
-            <div class="container">
-                <section id="sobre" class="mt-4 mt-sm-5">
-                    <div class="row">
-                        <div class="col-12 col-sm-5">
-                            <img class="img-fluid mb-2" src="assets/images/loja.jpg" alt="Loja da EBAC Motors" />
+            <div id="bg-sobre">
+                <div class="container">
+                    <section id="sobre">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-5">
+                                <img class="img-fluid mb-2" src="assets/images/loja.jpg" alt="Loja da EBAC Motors" />
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-7">
+                                <h2 class="pt-4 pt-sm-0">Sobre a EBAC Motors</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur
+                                    dolores, doloribus assumenda porro eum officia, nobis iusto nesciunt iure sapiente
+                                    cupiditate nihil enim exercitationem blanditiis modi. Repudiandae, voluptates iure.
+                                </p>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ipsum unde laudantium
+                                    aut accusamus corporis nulla dolore! Aut eaque nesciunt ab, enim dignissimos
+                                    doloremque quasi quos quae quo nihil qui.
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-12 col-sm-7">
-                            <h2>Sobre a EBAC Motors</h2>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias consequuntur
-                                dolores, doloribus assumenda porro eum officia, nobis iusto nesciunt iure sapiente
-                                cupiditate nihil enim exercitationem blanditiis modi. Repudiandae, voluptates iure.
-                            </p>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ipsum unde laudantium aut
-                                accusamus corporis nulla dolore! Aut eaque nesciunt ab, enim dignissimos doloremque
-                                quasi quos quae quo nihil qui.
-                            </p>
-                        </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
             </div>
             <div class="container">
                 <section id="destaques" class="mt-4 mt-sm-5">
